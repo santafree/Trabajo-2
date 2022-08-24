@@ -1,12 +1,25 @@
+:root{
+    --background: #02050e;
+  --text-white: #f3f4f6;
+  --text-gray: #adb9c7;
+  --secondary: #272d37;
+
+
+ 
+}
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana,Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 
 }
 header{
 color: rgba(175, 152, 152, 0.496);
+
 
 }
 .menu{
@@ -44,7 +57,75 @@ img{
     color: white;
 }
 
+
+main{
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+   
+
+}
+.inicio{
+    margin-top: 45px;
+    padding: 70px;
+    max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 145%;
+}
+.hero h1 {
+    font-size: 47px;
+    width: 80%;
+    min-height: 140px;
+    font-weight: 800;
+    background: linear-gradient(to top, #3E5151, #DECBA4);
+    -webkit-background-clip:text;
+    color: transparent;
+
+
+}
+.hero p{
+    font-size: 14px;
+    width: 70%;
+    color: var(--text-gray);
+}
+.hero button{
+    color:#020a18;
+    background: linear-gradient(to top, #1D976C, #93F9B9);
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.hero-img{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     
-
-
-  
+}
+.imagen{
+    width: 160%;
+    height: 160%;
+}
+.descrip{
+ padding: 70px 0;
+ max-width: 1200px;
+}
+.descrip p{
+    font-size: 20px;
+    font-weight: 300;
+   background: linear-gradient(to top, #302b63,#302b63,#24243e);
+}
