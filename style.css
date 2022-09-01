@@ -94,6 +94,7 @@ main{
     color: transparent;
 
 
+
 }
 .hero p{
     font-size: 14px;
@@ -129,3 +130,94 @@ main{
     font-weight: 300;
    background: linear-gradient(to top, #302b63,#302b63,#24243e);
 }
+
+.titulado{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.titulado h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+.titulado p{
+     font-size: 14px;
+    width: 70%;
+    color: var(--text-gray);
+}
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+}
+.benef{
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--secondary);
+    border-radius: 10px;
+    gap: 20px;
+}
+.benef h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+.benef p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text-gray);
+}
+.contacto{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.direccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.direccion h3{
+    padding: 10px;
+}
+.direccion span{
+padding: 10px;
+}
+.imagen img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background-color: rgb(94, 85, 85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+}
+.logo-footer{
+   
+    height: 40px;
+    width: 40px;
+}
+
