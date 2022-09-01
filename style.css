@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@300&display=swap');
+
 :root{
     --background: #02050e;
   --text-white: #f3f4f6;
@@ -139,14 +141,15 @@ main{
     flex-direction: column;
     gap: 80px;
 }
-.titulado h1 {
-    font-size: 32px;
-    font-weight: 800;
+.titulado h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 .titulado p{
-     font-size: 14px;
-    width:58%;
+     font-size: 27px;
+    width:57%;
     color: var(--text-gray);
+    text-align: center;
 }
 .beneficios{
     display: flex;
@@ -174,8 +177,8 @@ main{
     font-size: 16px;
 }
 .benef p{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 13px;
+    font-weight: 600;
     color: var(--text-gray);
 }
 .contacto{
@@ -190,7 +193,7 @@ main{
     display: flex;
     flex-direction: row;
     gap: 80px;
-    background:linear-gradient(#00416A,#E4E5E6)
+    background:linear-gradient(#373B44,#4286f4)
 }
 .direccion{
     display: flex;
