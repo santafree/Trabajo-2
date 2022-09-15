@@ -113,7 +113,7 @@ main{
     text-align: center;
 }
 .hero-img{
-    width: 300px;
+    width: 145%;
     padding: 20px;
     display: flex;
     justify-content: center;
